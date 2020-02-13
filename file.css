@@ -1,0 +1,14 @@
+body{
+background-color:pink;
+background-image:url("/home/Sem6B10/Desktop/index.png");
+background-repeat:repeat-x;
+background-attachment:fixed;
+background-attachment:scroll;
+}
+h1{
+color:purple;
+margin-left:40px;
+}
+p{
+color:blue;
+}
