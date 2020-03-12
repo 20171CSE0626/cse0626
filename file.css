@@ -1,6 +1,6 @@
 body{
 background-color:pink;
-background-image:url("/home/Sem6B10/Desktop/index.png");
+background-image:url("index.png");
 background-repeat:repeat-x;
 background-attachment:fixed;
 background-attachment:scroll;
@@ -120,10 +120,53 @@ border:1px green;
   background-color:blue;
 }
 
+selector::pseudo-element{
+property:value;
+}
 
+P::first-line{
+color:#ff0000;
+font-variant:small-caps;
+}
 
+p::first-letter{
+color:#ff0000;
+font-size:xx-large;
+}
+div.a{
+background-color:blue;
+border-width:2px;border-style:solid;color:blue;
+}
 
+#grad{
+background-image:radial-gradient(red 5%,yellow 15%,purple 50%);
+height:60px;}
 
+#id2{
+width:100px;
+height:100px;
+background:red;
+transition:width 2s,height 4s,transform 2s;
+border-radius:30px;
+
+}
+#id2:hover{
+width:300px;
+height:300px;
+transform:rotate(180deg);
+}
+
+#id3{
+width:100px;
+height:100px;
+background-color:red;
+animation-name:example;
+animation-duration:20s;
+}
+@keyframes example{
+from{background-color:red;}
+to{background-color:yellow;}
+}
 
 
 
